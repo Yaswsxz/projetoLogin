@@ -37,3 +37,20 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
+.faq-resposta {
+  display: none;
+  margin-top: 10px;
+  font-family: Arial, sans-serif;
+  border-color: black;
+}
+
+.faq-btn {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+/* Mostra a resposta quando passar o mouse */
+.faq-btn:hover + .faq-resposta {
+  display: block;
+}
